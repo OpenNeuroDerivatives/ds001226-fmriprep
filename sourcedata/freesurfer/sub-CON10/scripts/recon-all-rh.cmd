@@ -1,1 +1,1 @@
-/annex/objects/MD5E-s16097--54fe7315c08523ddc45ca4e8d9cb1abe.cmd
+../../../../.git/annex/objects/KP/3m/MD5E-s16097--54fe7315c08523ddc45ca4e8d9cb1abe.cmd/MD5E-s16097--54fe7315c08523ddc45ca4e8d9cb1abe.cmd
