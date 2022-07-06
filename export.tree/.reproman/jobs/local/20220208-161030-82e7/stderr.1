@@ -1,0 +1,116 @@
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 461, in generator_func
+    raise IncompleteResultsError(
+datalad.support.exceptions.IncompleteResultsError: Command did not complete successfully. 1 failed:
+[{'action': 'install',
+  'message': 'target path already exists and not empty, refuse to clone into '
+             'target path',
+  'path': '/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow',
+  'refds': None,
+  'source_url': 'https://github.com/templateflow/templateflow.git',
+  'status': 'error',
+  'type': 'dataset'}]
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 461, in generator_func
+    raise IncompleteResultsError(
+datalad.support.exceptions.IncompleteResultsError: Command did not complete successfully. 1 failed:
+[{'action': 'install',
+  'message': 'target path already exists and not empty, refuse to clone into '
+             'target path',
+  'path': '/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-CON02/fmriprep_wf/single_subject_CON02_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow',
+  'refds': None,
+  'source_url': 'https://github.com/templateflow/templateflow.git',
+  'status': 'error',
+  'type': 'dataset'}]
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    
