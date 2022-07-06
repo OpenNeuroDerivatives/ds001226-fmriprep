@@ -1,6 +1,0 @@
-Warning: Permanently added 'c209-023' (ED25519) to the list of known hosts.
-WARNING (05/06/22 19:09:54): LAUNCHER_WORKDIR variable not set. Using current directory.
-using /tmp/launcher.4311899.hostlist.P86RMdt2 to get hosts
-starting job on c209-023
-hostfile_replace_entries: link /home1/03201/jbwexler/.ssh/known_hosts to /home1/03201/jbwexler/.ssh/known_hosts.old: File exists
-update_known_hosts: hostfile_replace_entries failed for /home1/03201/jbwexler/.ssh/known_hosts: File exists
