@@ -1,0 +1,32 @@
+Warning: Permanently added 'c125-024' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c125-044' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c125-062' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c125-081' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c125-102' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c125-111' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c125-151' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c125-192' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c125-202' (ED25519) to the list of known hosts.
+WARNING (03/05/22 17:08:46): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.4120400.hostlist.22wVZ1R9 to get hosts
+starting job on c125-024
+starting job on c125-044
+starting job on c125-062
+starting job on c125-081
+starting job on c125-102
+starting job on c125-111
+starting job on c125-151
+starting job on c125-192
+starting job on c125-202
+hostfile_replace_entries: link /home1/03201/jbwexler/.ssh/known_hosts to /home1/03201/jbwexler/.ssh/known_hosts.old: File exists
+hostfile_replace_entries: link /home1/03201/jbwexler/.ssh/known_hosts to /home1/03201/jbwexler/.ssh/known_hosts.old: File exists
+hostfile_replace_entries: link /home1/03201/jbwexler/.ssh/known_hosts to /home1/03201/jbwexler/.ssh/known_hosts.old: File exists
+hostfile_replace_entries: link /home1/03201/jbwexler/.ssh/known_hosts to /home1/03201/jbwexler/.ssh/known_hosts.old: File exists
+update_known_hosts: hostfile_replace_entries failed for /home1/03201/jbwexler/.ssh/known_hosts: File exists
+update_known_hosts: hostfile_replace_entries failed for /home1/03201/jbwexler/.ssh/known_hosts: File exists
+update_known_hosts: hostfile_replace_entries failed for /home1/03201/jbwexler/.ssh/known_hosts: File exists
+update_known_hosts: hostfile_replace_entries failed for /home1/03201/jbwexler/.ssh/known_hosts: File exists
+hostfile_replace_entries: link /home1/03201/jbwexler/.ssh/known_hosts to /home1/03201/jbwexler/.ssh/known_hosts.old: File exists
+update_known_hosts: hostfile_replace_entries failed for /home1/03201/jbwexler/.ssh/known_hosts: File exists
+hostfile_replace_entries: link /home1/03201/jbwexler/.ssh/known_hosts to /home1/03201/jbwexler/.ssh/known_hosts.old: File exists
+update_known_hosts: hostfile_replace_entries failed for /home1/03201/jbwexler/.ssh/known_hosts: File exists

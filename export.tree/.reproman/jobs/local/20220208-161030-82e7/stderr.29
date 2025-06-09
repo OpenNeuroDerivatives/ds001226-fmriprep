@@ -1,0 +1,148 @@
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-PAT24/fmriprep_wf/single_subject_PAT24_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-PAT24/fmriprep_wf/single_subject_PAT24_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-PAT24/fmriprep_wf/single_subject_PAT24_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-PAT24/fmriprep_wf/single_subject_PAT24_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow 
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+Traceback (most recent call last):
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    code = _serve_one(child_r, fds,    
+_run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    code = spawn._main(child_r, parent_sentinel)
+      File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+Traceback (most recent call last):
+    prepare(preparation_data)    
+from .. import config  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+        from . import apimain_content = runpy.run_path(main_path,
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+        code = _serve_one(child_r, fds,from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    return _run_module_code(code, init_globals, run_name,
+      File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+        code = spawn._main(child_r, parent_sentinel)_run_code(code, mod_globals, init_globals,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+        exec(code, run_globals)prepare(preparation_data)
+
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    from fmriprep.cli.run import main
+      File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+results = list(results)    
+_fixup_main_from_path(data['init_main_from_path'])  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+        main_content = runpy.run_path(main_path,for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+        return _run_module_code(code, init_globals, run_name,from . import api
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+        from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout_run_code(code, mod_globals, init_globals,
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+        install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)    exec(code, run_globals)
+for r in destination_dataset.get(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+        for r in _process_results(from .. import config
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    for res in results:
+      File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+results = list(results)    
+from . import api
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    for r in _process_results(
+      File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+        for r in destination_dataset.get(raise ValueError(u"No installed dataset found at "
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    ValueErrorresults = list(results): 
+No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-PAT24/fmriprep_wf/single_subject_PAT24_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow.  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-PAT24/fmriprep_wf/single_subject_PAT24_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow.    
+for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds001226_sub-PAT24/fmriprep_wf/single_subject_PAT24_wf/func_preproc_ses_preop_task_rest_wf/unwarp_wf/resample/sourcedata/templateflow.
